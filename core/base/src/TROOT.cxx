@@ -104,6 +104,7 @@
 #include "TMap.h"
 #include "TObjString.h"
 #include "TVirtualMutex.h"
+#include "TPackageManagerMeta.h"
 #ifdef R__HAS_CLING
 # include "TCintWithCling.h"
 #else
@@ -432,6 +433,8 @@ TROOT::TROOT(const char *name, const char *title, VoidFuncPtr_t *initfunc)
    gGuiFactory      = gBatchGuiFactory;
    gGXBatch         = new TVirtualX("Batch", "ROOT Interface to batch graphics");
    gVirtualX        = gGXBatch;
+
+   gPackMan = new TPackageManagerMeta();
 
 #if defined(R__WIN32)
    fBatch = kFALSE;
