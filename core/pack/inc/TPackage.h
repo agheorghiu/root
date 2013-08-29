@@ -1,12 +1,6 @@
 #ifndef ROOT_TPackage
 #define ROOT_TPackage
 
-#ifndef ROOT_TProofMgr
-#include "TProofMgr.h"
-#endif
-#ifndef ROOT_TProofDebug
-#include "TProofDebug.h"
-#endif
 #ifndef ROOT_TString
 #include "TString.h"
 #endif
@@ -25,14 +19,8 @@
 #ifndef ROOT_TSysEvtHandler
 #include "TSysEvtHandler.h"
 #endif
-#ifndef ROOT_TThread
-#include "TThread.h"
-#endif
 #ifndef ROOT_TUrl
 #include "TUrl.h"
-#endif
-#ifndef ROOT_TProofOutputList
-#include "TProofOutputList.h"
 #endif
 
 #include "compiledata.h"
