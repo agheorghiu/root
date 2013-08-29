@@ -519,11 +519,11 @@ endif
 ##### libCore #####
 
 COREL         = $(BASEL1) $(BASEL2) $(BASEL3) $(CONTL) $(METAL) $(ZIPL) \
-                $(SYSTEML) $(CLIBL) $(METAUTILSL) $(TEXTINPUTL)
+                $(SYSTEML) $(CLIBL) $(METAUTILSL) $(TEXTINPUTL) $(PACKL)
 COREO         = $(BASEO) $(CONTO) $(METAO) $(SYSTEMO) $(ZIPO) $(LZMAO) \
-                $(CLIBO) $(METAUTILSO) $(METAUTILSTO) $(TEXTINPUTO)
+                $(CLIBO) $(METAUTILSO) $(METAUTILSTO) $(TEXTINPUTO) $(PACKO)
 COREDO        = $(BASEDO) $(CONTDO) $(METADO) $(METACDO) $(SYSTEMDO) $(ZIPDO) \
-                $(CLIBDO) $(METAUTILSDO) $(TEXTINPUTDO)
+                $(CLIBDO) $(METAUTILSDO) $(TEXTINPUTDO) $(PACKDO)
 
 CORELIB      := $(LPATH)/libCore.$(SOEXT)
 COREMAP      := $(CORELIB:.$(SOEXT)=.rootmap)
