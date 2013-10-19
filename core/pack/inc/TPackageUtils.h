@@ -35,9 +35,9 @@ TList* GetFiles(const char *dirName);
 Int_t GetNumFiles(const char *dirName);
 void RemoveFromList(const char *filePath, TList *list);
 void RecursiveRm(const char *dir, const char *prefix, const char *suffix,
-                            Bool_t hasStar, Bool_t noINF, TList *list);
+      Bool_t hasStar, Bool_t noINF, TList *list);
 void RecursiveCp(const char *dir, const char *dest, const char *prefix,
-        const char *suffix, Bool_t hasStar, Bool_t restrictInf, TList *list);
+      const char *suffix, Bool_t hasStar, Bool_t restrictInf, TList *list);
 void RecursiveLs(const char *dir, Int_t depth);
 void RmWithList(const char *file, Bool_t noINF, TList *list);
 void RCpWithList(const char *src, const char *dest, Bool_t restrictInf, TList *list);
